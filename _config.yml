@@ -1,0 +1,49 @@
+remote_theme: eliottvincent/bay
+
+title: 阿香正传
+description: >- # this means to ignore newlines until "baseurl:"
+  最廉价的进步-阅读书籍!
+baseurl: "/books" # the subpath of the site
+url: "https:///i1oveyou.github.io" # the base hostname & protocol for the site
+og_image: /assets/img/profile-pic.jpg
+google_analytics: "UA-121636368-3"
+
+
+
+header:
+  pages:
+    - name: 首页
+      slug: /
+    - name: 根目录
+      slug: https:///i1oveyou.github.io
+footer:
+  show_powered_by: true
+  contact:
+    - type: email
+      name: Email
+      value: resmile2001@gmail.com
+    - type: wechat
+      value: wechat
+      link: "#"
+  follow:
+    - type: twitter
+      name: Twitter
+      link: https://x.com/smilere441915
+      username: "@smilere441915"
+    # - type: facebook
+    #   name: Facebook
+    #   link: http://facebook.com/YourFacebookUsername
+    # - type: linkedin
+    #   name: LinkedIn
+    #   link: http://linkedin.com/in/YourLinkedInUsername
+    - type: github
+      name: GitHub
+      link: http://github.com/i1oveyou
+    # - type: dribbble
+    #   name: Dribbble
+    #   link: https://dribbble.com/YourDribbbleUsername
+    - type: rss
+      name: RSS
+      link: /feed.xml
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
