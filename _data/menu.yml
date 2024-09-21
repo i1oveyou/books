@@ -2,14 +2,14 @@
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
-  - title: self-education makes you better !!! 
+  - title: "self-education makes you better !!!"
     entries:
       - title: 安居不用架高楼，书中自有黄金屋。
       - title: 娶妻莫恨无良媒，书中自有颜如玉。
 
   - title: all posts
     post_list:
-      limit: 20
+      limit: 12
       show_more: true
       show_more_text: See more posts...
       show_more_url: category/archive.html
